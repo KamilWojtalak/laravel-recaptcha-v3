@@ -51,7 +51,7 @@ Then, when you define your form, you have to:
         data-callback="onSubmitRecaptcha" data-action="submit">
         {{ __('Submit') }}
     </button>
-</form
+</form>
 ```
 
 Notice that you have provide ID for your form in two places, 1) @reCaptchaFooter('demo-form'), 2) id="demo-form"  
