@@ -3,7 +3,7 @@
 ## Intallation
 
 ```
-composer require wojtalak/laravel-recaptcha-v3
+composer require kamilwojtalak/laravel-recaptcha-v3
 ```
 
 ## Get your key first!
