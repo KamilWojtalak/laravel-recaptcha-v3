@@ -46,6 +46,11 @@ Then, when you define your form, you have to:
 ```
 <form action="<your url>" method="<your method>" id="demo-form">
     ... <your code> ...
+
+    <button class="g-recaptcha" data-sitekey="{{ config('recaptcha.api_site_key') }}"
+        data-callback="onSubmitRecaptcha" data-action="submit">
+        {{ __('Submit') }}
+    </button>
 </form
 ```
 
