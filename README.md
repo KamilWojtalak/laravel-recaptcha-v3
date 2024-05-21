@@ -1,4 +1,4 @@
-# Larave reCaptcha v3
+# Laravel reCaptcha v3
 
 ## Intallation
 
