@@ -54,10 +54,10 @@ Then, when you define your form, you have to:
 </form>
 ```
 
-Notice that you have provide ID for your form in two places, 1) @reCaptchaFooter('demo-form'), 2) id="demo-form"  
+Notice that you have to provide ID for your form in two places, 1) @reCaptchaFooter('demo-form'), 2) id="demo-form"  
 
 
-Inside yuur validation request do:  
+Inside your validation request do:  
 
 ```
 use Wojtalak\LaravelRecaptchaV3\Rules;
